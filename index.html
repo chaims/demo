@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Flexbox</title>
+	<style type="text/css">
+	.box{
+		display:-webkit-flex;/* safari */
+		display: flex;
+
+		-webkit-flex-flow: row wrap; /*flex-direction flex-wrap */
+		flex-flow: row wrap;
+  		
+  		justify-content: space-between;
+  		align-content:stretch;
+	}
+	.items{
+		background: tomato;
+	  	width: 200px;
+	  	height: 50px;
+	  	line-height: 50px;
+	  	margin-top: 10px;
+	  	color: white;
+	  	font-weight: bold;
+	  	font-size: 3em;
+	  	text-align: center;
+
+	  	
+	}
+	</style>
+</head>
+<body>
+	
+	<div class="box">
+		<div class="items">1</div>
+		<div class="items">2</div>
+		<div class="items">3</div>
+		<div class="items">4</div>
+		<div class="items">5</div>
+		<div class="items">6</div>
+		<div class="items">7</div>
+		<div class="items">8</div>
+		<div class="items">9</div>
+	</div>
+
+
+	<div class="box">
+		<div class="items">1</div>
+		<div class="items">2</div>
+		<div class="items">3</div>
+		<div class="items">4</div>
+		<div class="items">5</div>
+		<div class="items">6</div>
+		<div class="items">9</div>
+	</div>
+
+
+</body>
+</html>
